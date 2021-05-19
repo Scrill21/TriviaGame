@@ -10,7 +10,6 @@ import Foundation
 class TriviaController {
     
     //MARK: - String Constants
-    //https://opentdb.com/api.php
     static let baseURL = URL(string: "https://opentdb.com/api.php")
     static let categoryComponent = "category"
     static let difficultyComponent = "difficulty"
@@ -18,7 +17,7 @@ class TriviaController {
     static let correctComponent = "correct"
     static let incorrectComponent = "incorrect"
     static let amountKey = "amount"
-    static let amountKeyValue = "10"
+    static let amountKeyValue = "1"
     static let typeKey = "type"
     static let typeKeyValue = "multiple"
     
