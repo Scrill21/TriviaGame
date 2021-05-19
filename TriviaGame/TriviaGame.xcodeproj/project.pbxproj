@@ -17,6 +17,8 @@
 		AC94327F2655892300FB47C4 /* PlaceholderForModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC94327E2655892300FB47C4 /* PlaceholderForModelController.swift */; };
 		AC9432812655894E00FB47C4 /* PlaceholderForViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9432802655894E00FB47C4 /* PlaceholderForViewControllers.swift */; };
 		AC9432832655898400FB47C4 /* PlaceholderForHelpersAndExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9432822655898400FB47C4 /* PlaceholderForHelpersAndExtension.swift */; };
+		AC9432872655A72500FB47C4 /* TriviaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9432862655A72500FB47C4 /* TriviaController.swift */; };
+		AC9432892655AA1700FB47C4 /* NetworkErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9432882655AA1700FB47C4 /* NetworkErrors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		AC94327E2655892300FB47C4 /* PlaceholderForModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderForModelController.swift; sourceTree = "<group>"; };
 		AC9432802655894E00FB47C4 /* PlaceholderForViewControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderForViewControllers.swift; sourceTree = "<group>"; };
 		AC9432822655898400FB47C4 /* PlaceholderForHelpersAndExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderForHelpersAndExtension.swift; sourceTree = "<group>"; };
+		AC9432862655A72500FB47C4 /* TriviaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaController.swift; sourceTree = "<group>"; };
+		AC9432882655AA1700FB47C4 /* NetworkErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkErrors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				AC9432822655898400FB47C4 /* PlaceholderForHelpersAndExtension.swift */,
+				AC9432882655AA1700FB47C4 /* NetworkErrors.swift */,
 			);
 			path = "Helpers and Extensions";
 			sourceTree = "<group>";
@@ -114,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				AC94327E2655892300FB47C4 /* PlaceholderForModelController.swift */,
+				AC9432862655A72500FB47C4 /* TriviaController.swift */,
 			);
 			path = "Model Controllers";
 			sourceTree = "<group>";
@@ -225,9 +231,11 @@
 				AC94327D265588E200FB47C4 /* PlaceholderForCustomViews.swift in Sources */,
 				AC94325E265587B900FB47C4 /* AppDelegate.swift in Sources */,
 				AC94327F2655892300FB47C4 /* PlaceholderForModelController.swift in Sources */,
+				AC9432872655A72500FB47C4 /* TriviaController.swift in Sources */,
 				AC943260265587B900FB47C4 /* SceneDelegate.swift in Sources */,
 				AC9432832655898400FB47C4 /* PlaceholderForHelpersAndExtension.swift in Sources */,
 				AC94327B2655885F00FB47C4 /* PlaceholderForModel.swift in Sources */,
+				AC9432892655AA1700FB47C4 /* NetworkErrors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
