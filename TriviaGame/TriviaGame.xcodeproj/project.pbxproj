@@ -7,20 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A5A42B22655A80600AF7918 /* TriviaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5A42B12655A80600AF7918 /* TriviaViewController.swift */; };
+		9A5A42B42655A81700AF7918 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5A42B32655A81700AF7918 /* ResultsViewController.swift */; };
 		AC94325E265587B900FB47C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC94325D265587B900FB47C4 /* AppDelegate.swift */; };
 		AC943260265587B900FB47C4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC94325F265587B900FB47C4 /* SceneDelegate.swift */; };
 		AC943265265587B900FB47C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC943263265587B900FB47C4 /* Main.storyboard */; };
 		AC943267265587BA00FB47C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC943266265587BA00FB47C4 /* Assets.xcassets */; };
 		AC94326A265587BA00FB47C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC943268265587BA00FB47C4 /* LaunchScreen.storyboard */; };
-		AC94327B2655885F00FB47C4 /* PlaceholderForModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC94327A2655885F00FB47C4 /* PlaceholderForModel.swift */; };
+		AC94327B2655885F00FB47C4 /* Trivia.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC94327A2655885F00FB47C4 /* Trivia.swift */; };
 		AC94327D265588E200FB47C4 /* PlaceholderForCustomViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC94327C265588E200FB47C4 /* PlaceholderForCustomViews.swift */; };
-		AC94327F2655892300FB47C4 /* PlaceholderForModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC94327E2655892300FB47C4 /* PlaceholderForModelController.swift */; };
-		AC9432812655894E00FB47C4 /* PlaceholderForViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9432802655894E00FB47C4 /* PlaceholderForViewControllers.swift */; };
+		AC94327F2655892300FB47C4 /* TriviaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC94327E2655892300FB47C4 /* TriviaController.swift */; };
 		AC9432832655898400FB47C4 /* PlaceholderForHelpersAndExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9432822655898400FB47C4 /* PlaceholderForHelpersAndExtension.swift */; };
 		AC943285265590A200FB47C4 /* TriviaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC943284265590A200FB47C4 /* TriviaController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9A5A42B12655A80600AF7918 /* TriviaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaViewController.swift; sourceTree = "<group>"; };
+		9A5A42B32655A81700AF7918 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
 		AC94325A265587B800FB47C4 /* TriviaGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TriviaGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC94325D265587B900FB47C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC94325F265587B900FB47C4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,10 +31,9 @@
 		AC943266265587BA00FB47C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC943269265587BA00FB47C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC94326B265587BA00FB47C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AC94327A2655885F00FB47C4 /* PlaceholderForModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderForModel.swift; sourceTree = "<group>"; };
+		AC94327A2655885F00FB47C4 /* Trivia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trivia.swift; sourceTree = "<group>"; };
 		AC94327C265588E200FB47C4 /* PlaceholderForCustomViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderForCustomViews.swift; sourceTree = "<group>"; };
-		AC94327E2655892300FB47C4 /* PlaceholderForModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderForModelController.swift; sourceTree = "<group>"; };
-		AC9432802655894E00FB47C4 /* PlaceholderForViewControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderForViewControllers.swift; sourceTree = "<group>"; };
+		AC94327E2655892300FB47C4 /* TriviaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaController.swift; sourceTree = "<group>"; };
 		AC9432822655898400FB47C4 /* PlaceholderForHelpersAndExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderForHelpersAndExtension.swift; sourceTree = "<group>"; };
 		AC943284265590A200FB47C4 /* TriviaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -107,7 +109,8 @@
 		AC9432742655880600FB47C4 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				AC9432802655894E00FB47C4 /* PlaceholderForViewControllers.swift */,
+				9A5A42B12655A80600AF7918 /* TriviaViewController.swift */,
+				9A5A42B32655A81700AF7918 /* ResultsViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -149,7 +152,7 @@
 		AC9432792655883600FB47C4 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				AC94327A2655885F00FB47C4 /* PlaceholderForModel.swift */,
+				AC94327A2655885F00FB47C4 /* Trivia.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -224,14 +227,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC9432812655894E00FB47C4 /* PlaceholderForViewControllers.swift in Sources */,
 				AC94327D265588E200FB47C4 /* PlaceholderForCustomViews.swift in Sources */,
+				9A5A42B22655A80600AF7918 /* TriviaViewController.swift in Sources */,
 				AC94325E265587B900FB47C4 /* AppDelegate.swift in Sources */,
 				AC94327F2655892300FB47C4 /* PlaceholderForModelController.swift in Sources */,
 				AC943285265590A200FB47C4 /* TriviaController.swift in Sources */,
 				AC943260265587B900FB47C4 /* SceneDelegate.swift in Sources */,
 				AC9432832655898400FB47C4 /* PlaceholderForHelpersAndExtension.swift in Sources */,
-				AC94327B2655885F00FB47C4 /* PlaceholderForModel.swift in Sources */,
+				AC94327B2655885F00FB47C4 /* Trivia.swift in Sources */,
+				9A5A42B42655A81700AF7918 /* ResultsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
