@@ -18,6 +18,7 @@
 		AC94327D265588E200FB47C4 /* PlaceholderForCustomViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC94327C265588E200FB47C4 /* PlaceholderForCustomViews.swift */; };
 		AC94327F2655892300FB47C4 /* TriviaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC94327E2655892300FB47C4 /* TriviaController.swift */; };
 		AC9432832655898400FB47C4 /* PlaceholderForHelpersAndExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9432822655898400FB47C4 /* PlaceholderForHelpersAndExtension.swift */; };
+		AC943285265590A200FB47C4 /* TriviaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC943284265590A200FB47C4 /* TriviaController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		AC94327C265588E200FB47C4 /* PlaceholderForCustomViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderForCustomViews.swift; sourceTree = "<group>"; };
 		AC94327E2655892300FB47C4 /* TriviaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaController.swift; sourceTree = "<group>"; };
 		AC9432822655898400FB47C4 /* PlaceholderForHelpersAndExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderForHelpersAndExtension.swift; sourceTree = "<group>"; };
+		AC943284265590A200FB47C4 /* TriviaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,7 +118,8 @@
 		AC9432752655881100FB47C4 /* Model Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				AC94327E2655892300FB47C4 /* TriviaController.swift */,
+				AC94327E2655892300FB47C4 /* PlaceholderForModelController.swift */,
+				AC943284265590A200FB47C4 /* TriviaController.swift */,
 			);
 			path = "Model Controllers";
 			sourceTree = "<group>";
@@ -227,7 +230,8 @@
 				AC94327D265588E200FB47C4 /* PlaceholderForCustomViews.swift in Sources */,
 				9A5A42B22655A80600AF7918 /* TriviaViewController.swift in Sources */,
 				AC94325E265587B900FB47C4 /* AppDelegate.swift in Sources */,
-				AC94327F2655892300FB47C4 /* TriviaController.swift in Sources */,
+				AC94327F2655892300FB47C4 /* PlaceholderForModelController.swift in Sources */,
+				AC943285265590A200FB47C4 /* TriviaController.swift in Sources */,
 				AC943260265587B900FB47C4 /* SceneDelegate.swift in Sources */,
 				AC9432832655898400FB47C4 /* PlaceholderForHelpersAndExtension.swift in Sources */,
 				AC94327B2655885F00FB47C4 /* Trivia.swift in Sources */,
