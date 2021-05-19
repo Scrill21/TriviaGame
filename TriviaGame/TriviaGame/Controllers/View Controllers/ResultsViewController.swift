@@ -10,6 +10,8 @@ import UIKit
 class ResultsViewController: UIViewController {
     
     //MARK: - Outlets
+    @IBOutlet weak var scoreLabel: UILabel!
+    @IBOutlet weak var scoreMessageLabel: UILabel!
     
     //MARK: - Lifecycle
     
@@ -20,7 +22,10 @@ class ResultsViewController: UIViewController {
         
     }
     
-
+    @IBAction func playAgainButtonTapped(_ sender: Any) {
+        
+    }
+    
     
     // MARK: - Navigation
     
