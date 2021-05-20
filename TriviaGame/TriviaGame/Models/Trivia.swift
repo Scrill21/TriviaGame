@@ -18,11 +18,11 @@ struct Results: Codable {
     let correct: String
     let incorrect: [String]
     
+    enum CodingKeys: String, CodingKey {
+        case correct = "correct_answer"
+        case incorrect = "incorrect_answers"
+        case category
+        case difficulty
+        case question
+    }
 }//end of struct
-
-enum CodingKeys: String, CodingKey {
-    case correct = "correct_answer"
-    case incorrect = "incorrect_answer"
-}
-
-
